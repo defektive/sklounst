@@ -11,6 +11,8 @@ function App() {
   const config: ZitadelConfig = {
     authority: "https://test-tow2vo.zitadel.cloud/",
     client_id: "256304703779001264@sorrybrad",
+    redirect_uri: "https://defektive.github.io/sklounst/callback",
+    post_logout_redirect_uri: "https://defektive.github.io/sklounst/"
   };
 
   const zitadel = createZitadelAuth(config);
