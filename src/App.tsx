@@ -44,13 +44,13 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route
-              path="/"
+              path="/sklounst/"
               element={
                 <Login authenticated={authenticated} handleLogin={login} />
               }
             />
             <Route
-              path="/callback"
+              path="/sklounst/callback"
               element={
                 <Callback
                   authenticated={authenticated}
